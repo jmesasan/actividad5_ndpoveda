@@ -1,0 +1,119 @@
+
+body {
+    align-content:center;
+}
+
+a {
+    text-decoration-style:none;
+}
+
+div > h2 {
+    width: 80%;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    margin-top: 2px;
+}
+
+.btn {
+    background: #37474f;
+}
+
+.navbar-fixed .brand-logo a {
+    width: 40%;
+}
+
+.navbar-fixed .brand-logo img {
+    width: 12%;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+
+.card-body {
+    padding: 10px;
+    text-align: justify;
+}
+
+.directory {
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+
+select {
+    display:block;
+    color:black;
+}
+
+input[type=submit] {
+    color:darkblue;
+    width:100%;
+}
+
+@media only screen and (min-width:800px) {
+    .cards1 {
+        display: inline-flex;
+    }
+
+        .cards1 .row .col.m6 {
+            width: 100%;
+        }
+
+        .cards1 .row p {
+            text-align: justify;
+        }
+
+    .carousel {
+        display: block;
+        height: 670px;
+    }
+
+        .carousel .carousel-item {
+            height: 670px;
+        }     
+
+    .cardvideo {
+        padding-top: 30px;
+        height: 760px;
+    }
+
+
+    .cardvideosub {
+        display: inline-flex;
+        width: 100%;
+    }
+
+        .cardvideosub .video-container {
+            height: 280px;
+            width: 51%;
+            margin: auto;
+        }
+
+            .cardvideosub .video-container iframe {
+                height: 62%;
+            }
+
+        .cardvideosub .col {
+            width: 40%;
+            padding-right: 40px;
+        }
+}
+
+@media only screen and (max-width:620px) {
+    nav .brand-logo {
+        transform: translateX(-19%);
+    }
+    .navbar-fixed .brand-logo img {
+        width: 30%;
+    }
+    .carousel {
+        height: 200px;
+    }
+    footer ul li {
+        font-size: 1.3rem;
+    }
+}
